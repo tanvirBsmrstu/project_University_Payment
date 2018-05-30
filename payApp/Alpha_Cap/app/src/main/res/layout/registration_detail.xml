@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#e8e8e7">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sId"
+            android:layout_below="@+id/sName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="User ID"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneNumber"
+            android:hint="phone number"
+            android:layout_below="@+id/sId"
+            android:inputType="phone"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sEmail"
+            android:hint="email"
+            android:layout_below="@+id/sId"
+            android:layout_toEndOf="@id/phoneNumber"
+            android:layout_toRightOf="@id/phoneNumber"
+            android:inputType="textCapWords"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="1dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rpass"
+            android:layout_below="@+id/phoneNumber"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/regSubmit"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="submitInfo"/>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="TnxId"
+        android:id="@+id/tnxidTv"
+        android:layout_margin="2dp" />
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="year"
+        android:id="@+id/yearTv"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        />
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="semister"
+        android:id="@+id/semisterTv"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="amount"
+        android:id="@+id/amountTv"
+        android:layout_marginLeft="5dp"
+
+        />
+
+
+</LinearLayout>

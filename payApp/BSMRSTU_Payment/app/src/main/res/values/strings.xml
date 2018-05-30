@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BSMRSTU Payment</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="registrationUrl">http://ahsatan.com/tanvir_space/uni_payment_app/registration.php</string>
+    <string name="submitTnxNoUrl">http://ahsatan.com/tanvir_space/uni_payment_app/submit_Tnx.php</string>
+    <string name="payment_statusUrl">http://ahsatan.com/tanvir_space/uni_payment_app/getStatus.php</string>
+    <string name="pay_codeUrl">http://ahsatan.com/tanvir_space/uni_payment_app/getPaycode.php</string>
+    <string name="loginUrl">http://ahsatan.com/tanvir_space/uni_payment_app/login.php</string>
+    <string name="loginUrl2">http://192.168.38.1/webapp/login.php</string>
+    <string name="title_activity_after_login">AfterLogin</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_payment_method">Payment_method</string>
+    <string name="title_activity_payment_status">Payment_status</string>
+    <string name="payment_details">pick paycode from the table and go to your bkash payment option. payment to the marchanth NO. with refference paycode, enter 1 as counter code, after getting Tranxection id put it here,,, then check payment status</string>
+</resources>

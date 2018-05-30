@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlphaCap</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="registrationUrl">http://ahsatan.com/tanvir_space/uni_payment_app/registration.php</string>
+    <string name="loginUrl">http://ahsatan.com/tanvir_space/uni_payment_app/login.php</string>
+    <string name="title_activity_after_login">AfterLogin</string>
+</resources>
